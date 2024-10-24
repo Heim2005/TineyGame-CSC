@@ -113,8 +113,8 @@ TextureImporter:
       name: tilesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 640
+        x: 236
+        y: 440
         width: 64
         height: 64
       alignment: 0
@@ -1331,7 +1331,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: -32, y: -22}
+        - {x: 32, y: -22}
+        - {x: 32, y: -32}
       tessellationDetail: 0
       bones: []
       spriteID: 2f2bd5b5d72d0da4092060b6061458ae
@@ -1780,7 +1784,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: -20, y: 32}
+        - {x: -20, y: -32}
+      - - {x: 20, y: -32}
+        - {x: 21, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
       tessellationDetail: 0
       bones: []
       spriteID: 6686dad3925325d4d86076347735a5fd
